@@ -1,0 +1,98 @@
+.recover-container, .change-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f3f3f3;
+}
+
+.recover-card, .change-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+
+.recover-card h2, .change-card h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.status {
+  margin-top: 1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+    .recover-container, .change-container {
+        padding: 1.5rem;
+    }
+    
+    .recover-card, .change-card {
+        padding: 2rem;
+        max-width: 380px;
+    }
+
+    .recover-card h2, .change-card h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .recover-card input, .change-card input,
+    .recover-card button, .change-card button {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .recover-container, .change-container {
+        padding: 1rem;
+    }
+    
+    .recover-card, .change-card {
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .recover-card h2, .change-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .recover-card input, .change-card input,
+    .recover-card button, .change-card button {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .status {
+        font-size: 0.85rem;
+    }
+}
