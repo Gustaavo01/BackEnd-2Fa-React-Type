@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import API_BASE_URL from "/trabalho rogerio/frontend/rogerio trab/configs";
+import API_BASE_URL from "/trabalho rogerio/frontend/trabalho/configs";
 import "./TrocarSenha.css";
 
 export default function TrocarSenha() {

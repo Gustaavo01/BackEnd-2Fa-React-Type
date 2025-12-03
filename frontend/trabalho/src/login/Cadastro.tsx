@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { useFlashMessage } from "/trabalho rogerio/frontend/rogerio trab/FlashMessageContext/FlashMessageContext";
-import API_BASE_URL from "/trabalho rogerio/frontend/rogerio trab/configs";
+import { useFlashMessage } from "/trabalho rogerio/frontend/trabalho/FlashMessageContext/FlashMessageContext";
+import API_BASE_URL from "/trabalho rogerio/frontend/trabalho/configs";
 import "./Cadastro.css";
 
 export default function Cadastro() {

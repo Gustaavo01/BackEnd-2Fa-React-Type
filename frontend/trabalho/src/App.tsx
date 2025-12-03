@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import {
   UserProvider,
   useUser,
-} from "/trabalho rogerio/frontend/rogerio trab/UserContext";
+} from "/trabalho rogerio/frontend/trabalho/UserContext";
 import VerificarConta from "./login/VerificarConta";
-import { FlashMessageProvider } from "/trabalho rogerio/frontend/rogerio trab/FlashMessageContext/FlashMessageContext";
+import { FlashMessageProvider } from "/trabalho rogerio/frontend/trabalho/FlashMessageContext/FlashMessageContext.tsx";
 import RecuperarSenha from "./login/RecuperarSenha";
 import NotFoundPage from "./NotFoundPage/NotFoundPage";
 import Login from "./login/Login";

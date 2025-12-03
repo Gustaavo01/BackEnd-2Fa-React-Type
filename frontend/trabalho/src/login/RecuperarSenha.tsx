@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API_BASE_URL from "/trabalho rogerio/frontend/rogerio trab/configs";
+import API_BASE_URL from "/trabalho rogerio/frontend/trabalho/configs";
 import "./RecuperarSenha.css";
 
 export default function RecuperarSenha() {

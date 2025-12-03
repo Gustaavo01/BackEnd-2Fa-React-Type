@@ -1,4 +1,4 @@
-import { useUser } from "/trabalho rogerio/frontend/rogerio trab/UserContext";
+import { useUser } from "/trabalho rogerio/frontend/trabalho/UserContext";
 import "./BoasVindas.css";
 
 export default function BemVindo() {

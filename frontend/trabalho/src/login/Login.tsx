@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { useUser } from "/trabalho rogerio/frontend/rogerio trab/UserContext";
-import { useFlashMessage } from "/trabalho rogerio/frontend/rogerio trab/FlashMessageContext/FlashMessageContext";
-import API_BASE_URL from "/trabalho rogerio/frontend/rogerio trab/configs";
+import { useUser } from "/trabalho rogerio/frontend/trabalho/UserContext";
+import { useFlashMessage } from "/trabalho rogerio/frontend/trabalho/FlashMessageContext/FlashMessageContext.tsx"
+import API_BASE_URL from "/trabalho rogerio/frontend/trabalho/configs";
 import "./Login.css";
 
 export default function Login() {
